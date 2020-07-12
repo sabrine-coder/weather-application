@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+  }
+  
+  
+  #changer {
+    width: 60%;
+    height: 50px;
+    margin: 0px auto 50px auto;
+    padding: 5px;
+    background-color: rgba(255,255, 255, 0.3);
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: gray 2px 2px 2px;
+    font-weight: 700;
+    font-size: 1.2em;
+  }
+
+  .container{
+    width: 50%;
+    height: 650px;
+    margin: 80px  auto;
+    background-color: gray;
+    border-radius: 20px;
+   
+  }
+  #villeContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: rgba(255,255, 255, 0.3);
+  }
+  #villeContainer img{
+    width: 30px;
+    height: 30px;
+  }
+  #villeContainer span{
+
+    font-size: 2em;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    text-transform: uppercase;
+  }
+
+
+
+  #circle{
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    border-radius: 50%;
+    border: 7px white solid;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  #dateContainer{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid white;
+    padding: 5px;
+  }
+
+  #image{
+    width: 120px;
+    height: 120px;
+    margin: 0px auto 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #image img{
+    width:80px;
+    height: 80px;
+    margin: auto;
+  }
+
+  #temperature {
+    font-size: 4em;
+    font-weight: 700;
+    margin: 20px auto;
+  }
+
+  @media all and (max-width: 400px) {
+
+  #changer {
+    
+    font-size: 0.8em;
+  }
+
+  .container{
+    width: 80%;
+   
+  }
+  #circle{
+    width: 240px;
+    height: 240px;
+    border: 5px white solid;
+
+  }
+
+
+  #image img{
+    width: 60px;
+    height: 60px;
+  }
+  #temperature {
+    font-size: 3em;
+    font-weight: 700;
+    margin: 20px auto;
+  }
+
+
+  }
